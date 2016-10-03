@@ -55,7 +55,7 @@ function updateDynamicDataContainer(data,container){
   });
 
 //where to go? first arg: method, second arg: URL
-oReq.open("GET", "http://api.openweathermap.org/data/2.5/forecast?q=Honolulu,USA&appid=" + apiKey);
+oReq.open("GET", "http://api.openweathermap.org/data/2.5/forecast?q=Honolulu,USA&appid=" + apiKey.apiKey);
 
 
 // SET HEADERS AFTER req.open but BEFORE oReq.send()
